@@ -3,6 +3,7 @@
     padding: 0;
     outline: none;
     text-decoration: none;
+    text-align: center;
 }
 
 body {
@@ -12,22 +13,52 @@ body {
     line-height: 1.5;
 }
 .navbar{
+    justify-content: space-between;
     background-color: rgb(194, 194, 194);
     font-family:Calibri;
     padding-right: 15px;
     padding-left: 15px;
 }
-.navdiv{
-    display:flex ;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo a{
-    font-size:35px;
+
+.logo h1{
+    font-size:50px;
+    font-family: sans-serif;
     font-weight: 600;
     color:white;
 }
-.navel a{
-    
-    padding:5px;
+
+
+.butt {
+    background-color: aquamarine;
+    color: brown;
+    text-align: center;
+        
+}
+
+footer{
+    text-align: center;
+    position:fixed;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    background-color: white;
+
+}
+:hover#one{
+ background-color: rgb(255, 95, 95);
+}
+:hover#two{
+    background-color: rgb(255, 167, 95);
+} 
+:hover#three{
+    background-color: rgb(250, 255, 95);
+}
+:hover#four{
+    background-color: rgb(186, 255, 95);
+}
+:hover#five{
+    background-color: rgb(95, 255, 186);
+}
+:hover#six{
+    background-color: rgb(95, 223, 255);
 }
